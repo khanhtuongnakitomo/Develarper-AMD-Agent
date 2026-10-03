@@ -1,4 +1,31 @@
-# AMD AI Developer Hackathon 2026 — Track 1: Token-Efficient Agent
+# Develarper — AMD AI Hackathon Agent
+
+**An agent routing project designed to reduce remote API token usage.**
+
+Team Develarper built this project for the AMD AI Developer Hackathon. It combines deterministic handlers, local model inference, and remote API routing across different task categories. This is Tuong Huynh's portfolio fork of the [team repository](https://github.com/UniverseScripts/develarper).
+
+## My contributions
+
+My recorded contributions include prompt changes and documentation updates:
+
+- [Prompt changes](https://github.com/UniverseScripts/develarper/commit/920951a1d8634b2d353fcb82d04c2b0b74d359e8).
+- [Documentation update PR #18](https://github.com/UniverseScripts/develarper/pull/18).
+
+The agent architecture is a team result; this fork does not attribute the entire implementation to one contributor.
+
+## Architecture at a glance
+
+```text
+Task → Cache / deterministic handler → Local model → Remote API when needed
+```
+
+**Technology:** Python, FastAPI, local Qwen inference, and Fireworks API integration. The competition goal and token budgets in the team documentation are distinct from achieved benchmark results; no new competition result is claimed by this README update.
+
+[Team repository](https://github.com/UniverseScripts/develarper) · [My portfolio](https://github.com/khanhtuongnakitomo)
+
+---
+
+## Developer documentation
 
 **Team**: Develarper
 
